@@ -1,0 +1,114 @@
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+}
+/*Header Section Styles*/
+nav{
+    padding:2% 0;
+}
+nav a{
+    display:inline-block;
+    width:10%;
+    padding:1% 0;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+}
+.orange{
+    background-color:#FF764E;
+    margin-left:10%;
+}
+.blue{
+    background-color:#5ED3EB;
+    margin:0 24%;
+}
+.yellow{
+    background-color:#FFCD69;
+    margin-right:10%;
+}
+
+/*Top Section Styles*/
+.top{
+    position:relative;
+}
+.left, .right{
+    display:inline-block;
+    text-align:center;
+}
+.left{
+        width:30%;
+}
+.left img{
+        border-radius:50%;
+        width: 80%;
+}
+    
+.right{
+        width:55%;
+        margin-left:5%;
+        position:absolute;
+        top:45%;
+}
+/*About Section Styles*/
+.about{
+    color:whitesmoke;
+    background-color:#DDB9A3;
+    text-align:center;
+    margin-top:3rem;
+    
+}
+/*Tips Section Styles*/
+.tips{
+    display:inline-block;
+    text-align:center;
+    font-size:1.2rem;
+    margin:0;
+    padding:15rem;
+}   
+.tips img{
+    width:15%;
+    object-fit:cover;
+    
+}
+.text p{
+    display:inline-block;
+    text-align:center;
+    margin:0;
+    padding:1.2rem;
+}
+span{
+    font-weight:100;
+}
+.bottom{
+    margin:0;
+    padding:0;
+}
+.bottom img{
+    width:100%;
+    object-fit:scale-down;
+}
+
+.footer{
+    background-color:#F9E7DC;
+    margin: 1rem, 1rem, 5rem, 1rem;
+}
+.footer nav{
+    padding:10px;
+}
